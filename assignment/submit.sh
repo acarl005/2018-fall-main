@@ -65,7 +65,7 @@ echo "Note: this will submit your whole repository to branch '${TARGET_BRANCH}'"
 # Run anaswers_test.py for pre-submit tests #
 #############################################
 echo "=== Running presubmit tests ==="
-PRESUMBMIT=
+PRESUBMIT=
 echo "RESULT: $PRESUBMIT"
 if ! cd a$ASSIGNMENT && python answers_test.py; then
   echo "== Warning! Presubmits failed.  Submit anyways?"
